@@ -13,6 +13,8 @@ if(!isset($_SESSION["pseudo"])){
     <title>Document</title>
 </head>
 <body>
+    <?php require_once 'nav-bar.php'; ?>
+
     <h1>Admin</h1>
 
 </body>
