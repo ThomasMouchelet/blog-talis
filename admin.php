@@ -1,5 +1,8 @@
 <?php
-require 'header.php'; 
+    require 'header.php'; 
+    if(isset($_GET["message"])){
+        echo $_GET["message"];
+    }
 ?>
     <h1>Admin</h1>
 
